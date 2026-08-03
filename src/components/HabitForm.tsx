@@ -1,0 +1,8 @@
+export function HabitForm() {  
+  return <form> 
+    <input className = "flex-1 rounded-lg bg-zinc-800 px-4 py-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500" placeholder = " New habit..."/>
+   
+    <button>Add Habit</button>
+
+  </form>
+}
