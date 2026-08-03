@@ -1,11 +1,13 @@
 import { HabitForm } from "./components/HabitForm"
+import { HabitList } from "./components/HabitList"
 import { Header } from "./Header"
 
 export default function App () {
   return (
    <div className="max-w-2xl mx-auto p-4 flex flex-col gap-4">
-     <Header></Header>
+     <Header />
      <HabitForm/>
+     <HabitList/>
    </div>
   )
 }
